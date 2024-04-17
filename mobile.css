@@ -2,7 +2,7 @@
     margin: 0; padding: 0; list-style: none; color: inherit; text-decoration: none;
     line-height: 1.3; 
     box-sizing: border-box;
-    font-family: 'spooca'
+    font-family: "Noto Sans KR", sans-serif;
 }
 img{vertical-align: top;}
 button{background-color: rgba(0,0,0,0); border: 0;}
