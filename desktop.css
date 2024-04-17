@@ -1,0 +1,265 @@
+@media all and (min-width: 750px){
+    .m{display: none;}
+    .tab{display: none;}
+    .pc{display: block;}
+
+header{
+    
+}
+header .wrap{
+    width: 1092px;
+    margin: 0 auto;
+    background-color: white;
+}
+header .wrap h1{
+    display: flex;
+    position: unset;
+    align-items: center;
+    justify-content: left;
+    transform: unset;
+    padding: 0px 20px;
+}
+header .wrap h1 a{
+    padding:10px;
+}
+header .wrap h1 img{
+    width: 120px;
+}
+header .wrap .btn-menu{display: none;}
+header .wrap nav .btn-close{display: none;}
+header .wrap nav{
+    display: flex;
+    position: unset;
+    justify-content: right;
+    align-items: center;
+    padding: 0;
+    overflow: unset;
+    flex-direction: unset;
+}
+header .wrap nav .gnb{
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+}
+header .wrap nav .box:first-child{font-size: inherit;}
+header .wrap nav .gnb .box{
+    padding: 5px;
+}
+header .wrap nav .gnb .box a{
+    padding: 10px;
+}
+header .wrap nav .gnb img{display: none;}
+header .wrap nav .util{
+    font-size: 0;
+    padding: 5px;
+}
+header .wrap nav .util a{
+    padding: 10px;
+    display: inline-block;
+}
+header .wrap nav .util img{
+    height: 20px;
+}
+.banner .btn-plus a{
+    border: 1px solid white;
+    color: white;
+    background-color: unset;
+}
+.main{
+    width: 1092px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.main span{
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 100px 0px 30px 0px;
+}
+.main .models h3{display: none;}
+.main .models{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.main .models .box h3{display: none;}
+.main .models .box1{grid-row: span 2;}
+.main .models .box4{grid-column: span 2;}
+.main .models div .thumb{
+    position: relative;
+}
+.main .models div .thumb p{
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    color: #4a4949;
+}
+.main .models .thumb img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main .models .btn-m{display: none;}
+.main .models div .btn{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    margin-top: 10px;
+}
+.main .models div .btn .box{
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    color: #ffffff;
+}
+.main .models div .btn .box a{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+.main .models .box1 .btn{
+    bottom: 10%;
+}
+.main .drive h2{
+    font-size: 32px;
+    margin: 100px 0px 30px 0px;
+}
+.main .drive div .txt p{display: block;}
+.main .drive div .txt{
+    text-align: left;
+}
+.main .drive div .pic img{
+    margin: 0;
+}
+.main .drive .box1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main .drive .box1 .txt{
+    margin-right: 20px;
+}
+.main .drive div .pic img{
+    width: 600px;
+}
+.main .drive div .txt h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.main .drive div .txt p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main .drive .box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main .drive .box2 .txt{
+    margin-left: 20px;
+}
+.main .charging .mySwiper .swiper-wrapper .swiper-slide .pc{display: block;}
+.main .charging h2{
+    font-size: 32px;
+    margin: 100px 0px 30px;
+}
+.main .charging .txt h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.main .charging .txt .box{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main .charging .txt .btn{
+    font-size: 14px;
+}
+.main .shop h2{
+    font-size: 32px;
+    margin: 100px 0px 30px;
+}
+.main .shop .mySwiper1{
+    padding: 20px;
+}
+.main .shop .thumb{display: block;}
+.main .shop .thumb div{
+    margin-top: 30px;
+    overflow: unset;
+}
+.main .shop .thumb > div{display: none;}
+.main .shop .thumb .shopswiper1{display: block;}
+.main .shop .thumb div .swiper-wrapper .swiper-slide img{
+    border-radius: 10px;
+    width: 100%;
+}
+.main .shop .thumb div .swiper-wrapper .swiper-slide{
+    position: relative;
+}
+.main .shop .thumb div .swiper-wrapper .swiper-slide .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: opacity 0.6s;
+    margin: 0;
+    opacity: 0;
+    border-radius: 10px;
+}
+.main .shop .thumb div .swiper-wrapper .swiper-slide .layer .txt{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+.main .shop .thumb div .swiper-wrapper .swiper-slide .layer .txt .box{
+    margin: 0;
+}
+.main .shop .thumb div .swiper-wrapper .swiper-slide .layer .txt .box:first-child{
+    font-weight: bold; 
+    margin-bottom: 20px;
+    font-size: 20px;
+} 
+.main .shop .thumb div .swiper-wrapper .swiper-slide .layer .txt .box:last-child{
+    font-weight: normal;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.main .shop .thumb div .swiper-wrapper .swiper-slide:hover .layer{
+    opacity: 1;
+}
+.footer{
+    margin-top: 100px;
+    padding: 20px;
+}
+.footer .pic .box{
+    margin: 20px 20px;
+}
+.footer .txt1{
+    display: flex;
+    justify-content: center;
+}
+.footer .txt2 p{
+    margin: 0px 150px;
+}
+}

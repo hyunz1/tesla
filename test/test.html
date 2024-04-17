@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+
+        .container{}
+        .container .btn{display: flex; justify-content: center; margin: 50px 0;}
+        .container .btn .tab{
+            padding: 10px 20px;
+            border-radius: 8px;
+            background-color: #c0c0c0;
+            margin: 0 10px;
+        }
+        .container .content{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .container .content .box{
+            width: 1000px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+            border: 2px solid #000;
+            border-radius: 16px;
+            display: none;
+        }
+
+        .container .content .box:nth-child(1){
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="btn">
+            <div class="tab">Menu1</div>
+            <div class="tab">Menu2</div>
+            <div class="tab">Menu3</div>
+            <div class="tab">Menu4</div>
+            <div class="tab">Menu5</div>
+        </div>
+        <div class="content">
+            <div class="box">CONTENT1</div>
+            <div class="box">CONTENT2</div>
+            <div class="box">CONTENT3</div>
+            <div class="box">CONTENT4</div>
+            <div class="box">CONTENT5</div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"   
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   
+	crossorigin="anonymous">
+    </script>
+    <script>
+        // document.querySelector(".tab1").addEventListener("click", function() {
+        //     document.querySelector(".box1").style.display = "flex";
+        // })
+
+        $(".tab").on("click", function() {
+            const i = $(this).index();//click 된 요소의 index 순서를 가져옴
+
+            $(".box").css("display", "none");
+            $(".box").eq(i).css("display", "flex");
+            // $(".box").eq(i).siblings().css("display", "none");
+        });
+    </script>
+</body>
+</html>

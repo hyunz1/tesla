@@ -1,0 +1,281 @@
+*{
+    margin: 0; padding: 0; list-style: none; color: inherit; text-decoration: none;
+    line-height: 1.3; 
+    box-sizing: border-box;
+    font-family: 'spooca'
+}
+img{vertical-align: top;}
+button{background-color: rgba(0,0,0,0); border: 0;}
+#wrapper{
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.tab{display: none;}
+.pc{display: none;}
+.m{display: block;}
+
+header{}
+header .wrap{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+header .wrap h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+}
+header .wrap h1 a{
+    padding: 10px;
+    display: inline-block;
+}
+header .wrap h1 img{
+    width: 30px;
+}
+header .wrap .btn-menu{}
+header .wrap .btn-menu button{
+    padding: 10px;
+}
+header .wrap nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    color: black;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    overflow: visible scroll;
+    font-size: 14px;
+}
+header .wrap nav .btn-close{
+    text-align: right;
+}
+header .wrap nav .btn-close button{
+    padding: 10px;
+}
+header .wrap nav .gnb{
+    font-size: 20px;
+}
+header .wrap nav .box{
+    padding: 10px;
+}
+header .wrap nav .util{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+header .wrap nav .util a{
+    padding: 10px;
+}
+header .wrap nav .box:first-child{font-size: 28px;}
+header .wrap nav .box a{
+    padding: 10px;
+}
+.banner{
+    position: relative;
+}
+.banner h2 img{
+    width: 100%;
+}
+.banner .btn-plus{
+    width: 100%;
+    position: absolute;
+    bottom: 15%;
+
+
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 14px;
+}
+.banner .btn-plus a{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.main{
+    padding: 20px;
+}
+span{display: none;}
+.main .models{}
+.main .models h3{
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px 20px 0px;
+}
+.main .models div{
+    position: relative;
+}
+.main .models div .thumb p{display: none;}
+.main .models div .thumb img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main .models div .btn{display: none;}
+.main .models div .btn-m{
+    font-size: 14px;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+}
+.main .models div .btn-m .box{
+    color: black;
+    margin-bottom: 10px;
+}
+.main .models div .btn-m .box a{
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: inline-block;
+    width: 160px;
+}
+
+.main .drive h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 50px 0px 20px 0px;
+}
+.main .drive .pic{}
+.main .drive .pic img{
+    width: 100%;
+    margin: 40px 0px 30px 0px;
+}
+.main .drive .txt p{display: none;}
+.main .drive div .txt{
+    text-align: center;
+}
+.main .drive div .txt h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main .drive div .txt .btn a{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.main .drive .box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .charging h2{
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+}
+.main .charging .mySwiper{
+    
+}
+.main .charging .mySwiper .swiper-wrapper .swiper-slide{
+    text-align: center;      
+}
+.main .charging .mySwiper .swiper-wrapper .swiper-slide .pc{display: none;}
+.main .charging .mySwiper .swiper-wrapper .swiper-slide img{
+    border-radius: 10px;  
+    width: 100%;  
+}
+.main .charging .swiper-button-next{
+    background: url(images/rightnw.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.main .charging .swiper-button-prev{
+  background: url(/images/leftnw.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.main .charging .swiper-button-next::after{display: none;}
+.main .charging .swiper-button-prev::after{display: none;}
+
+.main .charging .txt{
+    text-align: center;
+}
+.main .charging .txt h3{
+    margin: 30px 0px 10px;
+    font-size: 18px;
+}
+.main .charging .txt .box{display: none;}
+.main .charging .txt .btn a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+.main .shop h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 0px 20px 0px;
+}
+.main .shop .mySwiper1{}
+.main .shop .mySwiper1 .swiper-slide{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 10px;
+    width: calc(100% / 3);
+    font-size: 14px;
+
+}
+.main .shop .thumb{display: none;}
+.footer{
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+
+}
+.footer .pic img{
+    width: 30px;
+}
+.footer .pic .box{
+    margin: 10px 10px;
+}
+.footer .txt1{
+    margin-top: 10px;  
+    width: 100%;
+}
+.footer .txt1 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .txt1 div .box{
+    margin-right: 5px;
+    white-space: nowrap;
+}
+.footer .txt1 .right .box:last-child{
+    margin-right: 0;
+}
+.footer .txt2{
+    margin-top: 10px;
+}
+.footer .txt2 p{
+    margin: 0px 10px;
+}
+
+
+
+
+
+
