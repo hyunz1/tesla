@@ -64,10 +64,10 @@ header .wrap nav .btn-close button{
 header .wrap nav .gnb{
     font-size: 20px;
 }
-header .wrap nav .box{
+header .wrap nav .gnb .box{
     margin-bottom: 20px;
 }
-header .wrap nav .box:last-child{
+header .wrap nav .gnb .box:last-child{
     margin-bottom: 0;
 }
 header .wrap nav .util{

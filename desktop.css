@@ -41,6 +41,9 @@ header .wrap nav .gnb{
     margin-left: 20px;
     font-size: 14px;
 }
+header .wrap nav .gnb .box{
+    margin-bottom: 0px;
+}
 header .wrap nav .box:first-child{font-size: inherit;}
 header .wrap nav .gnb .box{
     padding: 5px;
@@ -52,6 +55,7 @@ header .wrap nav .gnb img{display: none;}
 header .wrap nav .util{
     font-size: 0;
     padding: 5px;
+    margin-top: 0;
 }
 header .wrap nav .util a{
     padding: 10px;
