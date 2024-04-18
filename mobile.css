@@ -135,6 +135,9 @@ span{display: none;}
     color: black;
     margin-bottom: 10px;
 }
+.main .models div .btn-m .box:last-child{
+    margin-bottom: 0
+}
 .main .models div .btn-m .box a{
     margin: 0 auto;
     padding: 10px 40px;
