@@ -65,13 +65,13 @@ header .wrap nav .gnb{
     font-size: 20px;
 }
 header .wrap nav .box{
-    padding: 10px;
+    margin-bottom: 20px;
 }
 header .wrap nav .util{
     font-size: 14px;
     padding: 10px;
     text-align: center;
-    margin-top: auto;
+    margin-top: 50px;
 }
 header .wrap nav .util a{
     padding: 10px;
