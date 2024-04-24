@@ -199,12 +199,12 @@ span{display: none;}
     width: 100%;  
 }
 .main .charging .swiper-button-next{
-    background: url(images/rightnw.png) no-repeat;
+    background: url(./images/rightnw.png) no-repeat;
     background-size: 100%;
     background-position: center;
 }
 .main .charging .swiper-button-prev{
-  background: url(/images/leftnw.png) no-repeat;
+  background: url(./images/leftnw.png) no-repeat;
   background-size: 100%;
   background-position: center;
 }
